@@ -1,0 +1,249 @@
+/* Base Styles */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Card Styles */
+.card {
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.dark .card {
+    background-color: rgba(30, 41, 59, 0.8);
+    border-color: #334155;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+}
+
+.dark .card:hover {
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 8px 10px -6px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Styles */
+.btn-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    background-color: #3b82f6;
+    color: white;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.dark .btn-primary {
+    background-color: #60a5fa;
+}
+
+.btn-primary:hover {
+    background-color: #2563eb;
+    transform: translateY(-1px);
+}
+
+.dark .btn-primary:hover {
+    background-color: #3b82f6;
+}
+
+/* Coupon Badge */
+.coupon {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    background-color: #fef3c7;
+    color: #92400e;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin: 0.5rem 0;
+}
+
+.dark .coupon {
+    background-color: rgba(251, 191, 36, 0.2);
+    color: #fbbf24;
+}
+
+/* Feature List */
+.features {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.features li {
+    display: flex;
+    align-items: flex-start;
+    padding: 0.25rem 0;
+    color: #475569;
+    font-size: 0.875rem;
+}
+
+.dark .features li {
+    color: #94a3b8;
+}
+
+/* Rating Stars */
+.rating {
+    display: flex;
+    align-items: center;
+    color: #fbbf24;
+    font-size: 1rem;
+}
+
+/* Plan Styles */
+.plan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-top: 1px solid #e2e8f0;
+}
+
+.dark .plan {
+    border-top-color: #334155;
+}
+
+.plan .price {
+    font-weight: 600;
+    color: #0f172a;
+}
+
+.dark .plan .price {
+    color: #f1f5f9;
+}
+
+.plan .details {
+    font-size: 0.875rem;
+    color: #64748b;
+}
+
+.dark .plan .details {
+    color: #94a3b8;
+}
+
+/* Filter Button Styles */
+.filter-btn {
+    transition: all 0.2s ease;
+}
+
+.filter-btn.active {
+    background-color: #3b82f6;
+    color: white;
+}
+
+.dark .filter-btn.active {
+    background-color: #60a5fa;
+}
+
+/* Table Styles */
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.dark th, .dark td {
+    border-bottom-color: #334155;
+}
+
+th {
+    font-weight: 600;
+    color: #0f172a;
+}
+
+.dark th {
+    color: #f1f5f9;
+}
+
+td {
+    color: #475569;
+}
+
+.dark td {
+    color: #94a3b8;
+}
+
+/* Mobile Menu Animation */
+#mobile-menu {
+    transition: all 0.3s ease;
+}
+
+/* Focus Styles for Accessibility */
+button:focus-visible,
+a:focus-visible {
+    outline: 2px solid #3b82f6;
+    outline-offset: 2px;
+}
+
+.dark button:focus-visible,
+.dark a:focus-visible {
+    outline-color: #60a5fa;
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+    
+    html {
+        scroll-behavior: auto;
+    }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f5f9;
+}
+
+.dark ::-webkit-scrollbar-track {
+    background: #1e293b;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+    background: #475569;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+    background: #64748b;
+}

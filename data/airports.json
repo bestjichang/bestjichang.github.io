@@ -1,0 +1,468 @@
+{
+  "featured": [
+    {
+      "id": "hongxingyun",
+      "name": "红杏云",
+      "rating": 5,
+      "url": "https://go.clashshome.com/hongxingyun",
+      "coupon": "hx2026",
+      "couponDesc": "新用户首单8折",
+      "features": [
+        "Trojan协议+TLS 1.3加密",
+        "60+全球优质节点",
+        "完美解锁Netflix/Disney+/ChatGPT",
+        "无限设备连接",
+        "澳大利亚注册公司运营"
+      ],
+      "plans": [
+        { "name": "轻量-包月", "price": "¥14.9/月", "details": "200GB · 300Mbps" },
+        { "name": "冲浪-包月", "price": "¥29.9/月", "details": "500GB · 500Mbps" },
+        { "name": "不限时套餐", "price": "¥139.9起", "details": "1000GB永久有效" },
+        { "name": "不限时套餐", "price": "¥379.9起", "details": "3000GB永久有效" }
+      ],
+      "category": "value",
+      "minPrice": "¥14.9/月",
+      "maxSpeed": "500Mbps",
+      "specialFeatures": "Trojan协议",
+      "recommended": true
+    },
+    {
+      "id": "overwall",
+      "name": "overwall",
+      "rating": 5,
+      "url": "https://go.clashshome.com/overwall",
+      "backupUrl": "https://go.clashshome.com/overwall1",
+      "features": [
+        "游戏专线",
+        "技术架构合理",
+        "连接稳定性突出",
+        "使用门槛低",
+        "支持Windows/macOS/Android"
+      ],
+      "plans": [
+        { "name": "入门套餐", "price": "¥18/月", "details": "100GB · IEPL专线" },
+        { "name": "性价比套餐", "price": "¥28/月", "details": "200GB · IEPL专线+游戏专线" },
+        { "name": "主流套餐", "price": "¥36/月", "details": "300GB · IEPL专线+游戏专线" },
+        { "name": "不限时套餐", "price": "¥38起", "details": "100GB永久有效" },
+        { "name": "不限时套餐", "price": "¥70起", "details": "200GB永久有效" },
+        { "name": "不限时套餐", "price": "¥140起", "details": "500GB永久有效" },
+        { "name": "不限时套餐", "price": "¥260起", "details": "1024GB永久有效" }
+      ],
+      "category": "special",
+      "minPrice": "¥18/月",
+      "maxSpeed": "高速",
+      "specialFeatures": "游戏专线",
+      "recommended": true
+    }
+  ],
+  "airports": [
+    {
+      "id": "budingcat",
+      "name": "布丁猫机场",
+      "rating": 5,
+      "url": "https://go.clashshome.com/budingcat",
+      "features": [
+        "8元/月起，市场最低价之一",
+        "所有套餐不限制设备数量",
+        "30-99+节点，5-40+地区覆盖",
+        "300Mbps-1500Mbps速度"
+      ],
+      "plans": [
+        { "name": "奶猫-迷你版", "price": "¥8/月", "details": "75GB · 300Mbps" },
+        { "name": "幼猫-轻享版", "price": "¥13/月", "details": "150GB · 500Mbps" }
+      ],
+      "category": "entry",
+      "minPrice": "¥8/月",
+      "maxSpeed": "1500Mbps",
+      "specialFeatures": "不限制设备"
+    },
+    {
+      "id": "wenlianyun",
+      "name": "稳连云机场",
+      "rating": 5,
+      "url": "https://go.clashshome.com/wenlianyun",
+      "features": [
+        "12元/月起，IEPL专线+中转线路",
+        "所有套餐不限制设备数量",
+        "解锁流媒体+ChatGPT",
+        "活动套餐年付180元"
+      ],
+      "plans": [
+        { "name": "月付100G套餐", "price": "¥12/月", "details": "100GB · IEPL专线" },
+        { "name": "月付200G套餐", "price": "¥22/月", "details": "200GB · IEPL专线" }
+      ],
+      "category": "entry",
+      "minPrice": "¥12/月",
+      "maxSpeed": "IEPL专线",
+      "specialFeatures": "流媒体+GPT"
+    },
+    {
+      "id": "dukadi",
+      "name": "杜卡迪机场",
+      "rating": 5,
+      "url": "https://go.clashshome.com/dukadi",
+      "features": [
+        "年付12元=1元/月，200GB流量",
+        "全站Hysteria2（HY2）协议",
+        "带宽真万兆，不限速版实测1000Mbps+",
+        "解锁真原生，Netflix 4K、Disney+杜比视界",
+        "设备真不限"
+      ],
+      "plans": [
+        { "name": "传家宝套餐", "price": "¥12/年付", "details": "200GB/月 · 100Mbps" },
+        { "name": "入门套餐", "price": "¥9.9/月", "details": "2000GB · 300Mbps" },
+        { "name": "中级套餐", "price": "¥24/月", "details": "6000GB · 不限速" }
+      ],
+      "category": "entry",
+      "minPrice": "¥1/月",
+      "maxSpeed": "1000Mbps+",
+      "specialFeatures": "Hysteria2协议"
+    },
+    {
+      "id": "shanshuiyun",
+      "name": "山水云机场",
+      "rating": 4,
+      "url": "https://go.clashshome.com/shanshuiyun",
+      "features": [
+        "15元/月起，IEPL专线节点",
+        "解锁全球众多冷门国家",
+        "支持3-10个设备同时在线",
+        "全流媒体解锁"
+      ],
+      "plans": [
+        { "name": "100G/月-琴", "price": "¥14.99/月", "details": "100GB · 3设备" },
+        { "name": "128G/特惠套餐", "price": "¥45/3个月", "details": "月均¥15 · 8设备" }
+      ],
+      "category": "entry",
+      "minPrice": "¥14.99/月",
+      "maxSpeed": "IEPL专线",
+      "specialFeatures": "冷门国家解锁"
+    },
+    {
+      "id": "cocoduck",
+      "name": "COCODUCK机场",
+      "rating": 5,
+      "url": "https://go.clashshome.com/cocoduck",
+      "features": [
+        "15元/月起",
+        "所有套餐不限制设备数量",
+        "不限制连接速度",
+        "完美解锁Netflix/Hulu/HBO/Disney+",
+        "专门优化ChatGPT连接"
+      ],
+      "plans": [
+        { "name": "鸭宝宝套餐", "price": "¥15/月", "details": "150GB · 不限制设备" },
+        { "name": "可达鸭套餐", "price": "¥28/月", "details": "400GB · 不限制设备" }
+      ],
+      "category": "entry",
+      "minPrice": "¥15/月",
+      "maxSpeed": "不限制速度",
+      "specialFeatures": "不限制设备"
+    },
+    {
+      "id": "naiyun",
+      "name": "奈云",
+      "rating": 5,
+      "url": "https://go.clashshome.com/naiyun",
+      "features": [
+        "全球广泛节点覆盖",
+        "独特家宽IP地址",
+        "ChatGPT全解锁优化",
+        "支持Shadowsocks/Vmess/Trojan协议",
+        "提供定制一键客户端"
+      ],
+      "plans": [
+        { "name": "个人日常使用", "price": "¥14.9/月起", "details": "130G-420G套餐" },
+        { "name": "家庭共享", "price": "¥29.9/月起", "details": "1660G-3600G套餐" }
+      ],
+      "category": "value",
+      "minPrice": "¥14.9/月",
+      "maxSpeed": "1000Mbps",
+      "specialFeatures": "家宽IP"
+    },
+    {
+      "id": "wangjisulian",
+      "name": "网际速连",
+      "rating": 5,
+      "url": "https://go.clashshome.com/wangjisulian",
+      "coupon": "WJSL8Z",
+      "couponDesc": "新用户8折",
+      "features": [
+        "IEPL专线技术",
+        "50+全球边缘网络",
+        "多种流媒体服务解锁",
+        "新用户8折优惠",
+        "全中转x1倍率"
+      ],
+      "plans": [
+        { "name": "100G月流量", "price": "¥16/月", "details": "100GB · 3设备 · 200Mbps" },
+        { "name": "200G月流量", "price": "¥30/月", "details": "200GB · 6设备 · 200Mbps" },
+        { "name": "500G月流量", "price": "¥60/月", "details": "500GB · 10设备 · 500Mbps" },
+        { "name": "50G不限时", "price": "¥18一次性", "details": "50GB · 100Mbps" },
+        { "name": "100G不限时", "price": "¥36一次性", "details": "100GB · 200Mbps" },
+        { "name": "200G不限时", "price": "¥68一次性", "details": "200GB · 200Mbps" },
+        { "name": "500G不限时", "price": "¥168一次性", "details": "500GB · 500Mbps" },
+        { "name": "1000G不限时", "price": "¥328一次性", "details": "1000GB · 800Mbps" }
+      ],
+      "category": "value",
+      "minPrice": "¥16/月",
+      "maxSpeed": "500Mbps",
+      "specialFeatures": "IEPL专线"
+    },
+    {
+      "id": "jinglingxy",
+      "name": "精灵学院机场",
+      "rating": 5,
+      "url": "https://go.clashshome.com/jinglingxy",
+      "coupon": "New2025",
+      "couponDesc": "新用户95折",
+      "features": [
+        "IEPL专线+中转入口",
+        "Silver及以上套餐提供EMBY影音服务",
+        "支持ChatGPT/Claude等AI工具",
+        "500Mbps峰值速率"
+      ],
+      "plans": [
+        { "name": "Silver套餐", "price": "¥15/月", "details": "120GB · 提供EMBY" },
+        { "name": "Iron套餐", "price": "¥8/月", "details": "30GB · 入门体验" }
+      ],
+      "category": "value",
+      "minPrice": "¥8/月",
+      "maxSpeed": "500Mbps",
+      "specialFeatures": "EMBY服务"
+    },
+    {
+      "id": "flybit",
+      "name": "FlyBit网络服务",
+      "rating": 4,
+      "url": "https://go.clashshome.com/flybit",
+      "features": [
+        "SS协议+Secure隧道",
+        "不限制设备数量",
+        "解锁Netflix/Disney+/ChatGPT",
+        "月付12元起"
+      ],
+      "plans": [
+        { "name": "每月-160G", "price": "¥18/月", "details": "160GB" },
+        { "name": "每月-100G", "price": "¥12/月", "details": "100GB" },
+        { "name": "不限时400G", "price": "¥88一次性", "details": "400GB" },
+        { "name": "不限时1024G", "price": "¥168一次性", "details": "1024GB" }
+      ],
+      "category": "value",
+      "minPrice": "¥12/月",
+      "maxSpeed": "SS协议",
+      "specialFeatures": "流媒体解锁"
+    },
+    {
+      "id": "m78xingyun",
+      "name": "M78星云机场",
+      "rating": 5,
+      "url": "https://go.clashshome.com/m78xingyun",
+      "features": [
+        "最高2000Mbps速率",
+        "20+个国家节点",
+        "全套餐解锁Netflix/Disney+/ChatGPT",
+        "部分套餐赠送Emby服务"
+      ],
+      "plans": [
+        { "name": "中级套餐", "price": "¥12.8/月", "details": "150GB · 支持全节点+Emby" },
+        { "name": "轻量套餐", "price": "¥7.8/月", "details": "80GB · 基础节点" }
+      ],
+      "category": "value",
+      "minPrice": "¥7.8/月",
+      "maxSpeed": "2000Mbps",
+      "specialFeatures": "20+国家节点"
+    },
+    {
+      "id": "baiyueguang",
+      "name": "白月光机场",
+      "rating": 5,
+      "url": "https://go.clashshome.com/baiyueguang",
+      "features": [
+        "IEPL专线技术",
+        "全球70+国家接入",
+        "SS协议安全稳定",
+        "完美解锁流媒体",
+        "7×24人工客服"
+      ],
+      "plans": [
+        { "name": "中包套餐", "price": "¥38/月", "details": "250GB · 5设备" },
+        { "name": "小包套餐", "price": "¥20/月", "details": "100GB · 5设备" },
+        { "name": "不限时500G", "price": "¥250一次性", "details": "500GB · 两年有效" },
+        { "name": "不限时1000G", "price": "¥400一次性", "details": "1000GB · 两年有效" }
+      ],
+      "category": "value",
+      "minPrice": "¥20/月",
+      "maxSpeed": "IEPL专线",
+      "specialFeatures": "全球70+国家"
+    },
+    {
+      "id": "yuyunjc",
+      "name": "渔云机场",
+      "rating": 5,
+      "url": "https://go.clashshome.com/yuyunjc",
+      "features": [
+        "新疆可用性保证",
+        "所有套餐不限制设备数量",
+        "Lite/Plus/Max套餐赠送EMBY影视库",
+        "Secure隧道传输"
+      ],
+      "plans": [
+        { "name": "Plus套餐", "price": "¥15/月", "details": "300GB · 500Mbps · 赠送EMBY" },
+        { "name": "Lite套餐", "price": "¥9/月", "details": "120GB · 300Mbps · 赠送EMBY" }
+      ],
+      "category": "special",
+      "minPrice": "¥9/月",
+      "maxSpeed": "1000Mbps",
+      "specialFeatures": "新疆可用+EMBY"
+    },
+    {
+      "id": "ssrdog",
+      "name": "ssrdog机场",
+      "rating": 4,
+      "url": "https://go.clashshome.com/ssrdog",
+      "features": [
+        "67个优质节点",
+        "混合专线/标准专线",
+        "150G/300G/850G多档流量选择",
+        "年付优惠力度大"
+      ],
+      "plans": [
+        { "name": "标准套餐年付", "price": "¥288/年", "details": "300GB/月 · 5设备 · 500Mbps" },
+        { "name": "轻量套餐年付", "price": "¥205.68/年", "details": "150GB/月 · 3设备 · 300Mbps" }
+      ],
+      "category": "premium",
+      "minPrice": "¥17.14/月",
+      "maxSpeed": "1000Mbps",
+      "specialFeatures": "67个节点"
+    },
+    {
+      "id": "wandayun",
+      "name": "万达云机场",
+      "rating": 4,
+      "url": "https://go.clashshome.com/wandayun",
+      "features": [
+        "新疆专用IPV6套餐",
+        "所有常规套餐提供Emby服务账号",
+        "IEPL专线+全中转线路",
+        "支持5-50台设备同时在线"
+      ],
+      "plans": [
+        { "name": "300G全中转", "price": "¥24/月", "details": "300GB · 10设备 · IEPL+Emby" },
+        { "name": "新疆专用套餐", "price": "¥30/月", "details": "300GB · IPV6专属线路" }
+      ],
+      "category": "premium",
+      "minPrice": "¥13.9/月",
+      "maxSpeed": "2000Mbps",
+      "specialFeatures": "新疆+Emby"
+    },
+    {
+      "id": "yangfanyun",
+      "name": "扬帆云机场",
+      "rating": 4,
+      "url": "https://go.clashshome.com/yangfanyun",
+      "coupon": "618",
+      "couponDesc": "年付7折",
+      "features": [
+        "年费7折优惠",
+        "节点等级权限系统",
+        "一次性付款永久有效选项",
+        "最高2000Mbps速率"
+      ],
+      "plans": [
+        { "name": "LV3套餐", "price": "¥39.99/月", "details": "400GB · 1000Mbps · 4设备" },
+        { "name": "LV2套餐", "price": "¥29.99/月", "details": "200GB · 500Mbps · 3设备" },
+        { "name": "不限时套餐", "price": "一次性付款", "details": "任意套餐永久有效" }
+      ],
+      "category": "premium",
+      "minPrice": "¥15.99/月",
+      "maxSpeed": "2000Mbps",
+      "specialFeatures": "节点等级系统"
+    },
+    {
+      "id": "xsus",
+      "name": "XSUS网络服务",
+      "rating": 4,
+      "url": "https://xs-us.xyz/register?code=G3gBe4Zs",
+      "features": [
+        "自有机房专柜",
+        "P-Ultra套餐5Gbps突发带宽",
+        "不限制设备数量",
+        "解锁Netflix/Disney+等流媒体"
+      ],
+      "plans": [
+        { "name": "P-Plus套餐", "price": "¥16/月", "details": "336GB · 1Gbps" },
+        { "name": "P-Small套餐", "price": "¥8/月", "details": "168GB · 500Mbps" }
+      ],
+      "category": "premium",
+      "minPrice": "¥8/月",
+      "maxSpeed": "5Gbps突发",
+      "specialFeatures": "自有机房"
+    },
+    {
+      "id": "biubiu",
+      "name": "Biubiu加速器",
+      "rating": 5,
+      "url": "https://go.clashshome.com/biubiu",
+      "features": [
+        "三网专线IPLC传输网络",
+        "100+全球节点",
+        "多种流媒体、GPT解锁",
+        "支持商业用途"
+      ],
+      "plans": [
+        { "name": "Mini Biu 200G", "price": "¥24/月", "details": "200GB · 300Mbps · 100+节点" },
+        { "name": "Medium Biu 500G", "price": "¥45/月", "details": "500GB · 500Mbps" }
+      ],
+      "category": "premium",
+      "minPrice": "¥11/月",
+      "maxSpeed": "1500Mbps",
+      "specialFeatures": "三网专线IPLC"
+    },
+    {
+      "id": "yunniaoloon",
+      "name": "云鸟Loon",
+      "rating": 5,
+      "url": "https://go.clashshome.com/yunniaoloon",
+      "features": [
+        "60+全球优质节点",
+        "1Gbps带宽保证",
+        "不限制客户端连接数量",
+        "完美解锁ChatGPT/Netflix/Disney+",
+        "年付价格超值"
+      ],
+      "plans": [
+        { "name": "年付100G套餐", "price": "¥15.9/年", "details": "月均100GB" },
+        { "name": "年付200G套餐", "price": "¥19.9/年", "details": "月均200GB" },
+        { "name": "不限时5000G", "price": "¥99一次性", "details": "5000GB永久有效" }
+      ],
+      "category": "special",
+      "minPrice": "¥15.9/月",
+      "maxSpeed": "1Gbps",
+      "specialFeatures": "60+节点+不限设备"
+    },
+    {
+      "id": "mojie",
+      "name": "魔戒",
+      "rating": 5,
+      "url": "https://go.clashshome.com/mojie",
+      "backupUrl": "https://go.clashshome.com/mojieapp",
+      "features": [
+        "不限时长，永久有效",
+        "不限制使用人数",
+        "不限制网络速度",
+        "完美支持流媒体",
+        "按流量计费"
+      ],
+      "plans": [
+        { "name": "130G流量包", "price": "¥14.9", "details": "平均每G成本¥0.11" },
+        { "name": "420G流量包", "price": "¥42.0", "details": "平均每G成本¥0.10" },
+        { "name": "750G流量包", "price": "¥69.0", "details": "平均每G成本¥0.09" }
+      ],
+      "category": "unlimited",
+      "minPrice": "¥14.9/次",
+      "maxSpeed": "不限速",
+      "specialFeatures": "永久有效"
+    }
+  ]
+}

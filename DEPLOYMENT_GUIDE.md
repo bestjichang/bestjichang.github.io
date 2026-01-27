@@ -201,7 +201,7 @@ git commit -m "Initial commit: GitHub Pages blog"
 ### 步骤 4：连接到 GitHub 仓库
 
 ```bash
-git remote add origin https://github.com/jichangtuijian/jichangtuijian.github.io.git
+git remote add origin https://github.com/bestvpsvpn/jichangtuijian.github.io.git
 ```
 
 **注意**：将 `jichangtuijian` 替换为你的 GitHub 用户名。

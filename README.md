@@ -4,7 +4,7 @@
 
 ## 🌐 在线访问
 
-- **网站地址**: https://jichangtuijian.github.io/
+- **网站地址**: https://bestjichang.github.io/
 
 ## 🤝 贡献
 
@@ -16,8 +16,8 @@
 
 ## 📮 联系方式
 
-- GitHub: https://github.com/jichangtuijian
-- Email: contact@jichangtuijian.github.io
+- GitHub: https://github.com/bestjichang
+- Email: contact@bestjichang.github.io
 
 ---
 

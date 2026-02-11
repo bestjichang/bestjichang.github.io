@@ -5,7 +5,7 @@
       "name": "红杏云",
       "rating": 5,
       "url": "https://go.clashshome.com/hongxingyun",
-      "coupon": "hx2026",
+      "coupon": "红杏2026",
       "couponDesc": "新用户首单8折",
       "features": [
         "Trojan协议+TLS 1.3加密",
@@ -17,7 +17,6 @@
       "plans": [
         { "name": "轻量-包月", "price": "¥14.9/月", "details": "200GB · 300Mbps" },
         { "name": "冲浪-包月", "price": "¥29.9/月", "details": "500GB · 500Mbps" },
-        { "name": "不限时套餐", "price": "¥139.9起", "details": "1000GB永久有效" },
         { "name": "不限时套餐", "price": "¥379.9起", "details": "3000GB永久有效" }
       ],
       "category": "value",

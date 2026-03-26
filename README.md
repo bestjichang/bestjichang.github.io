@@ -16,7 +16,7 @@
 
 ## 📮 联系方式
 
-- GitHub: https://github.com/jichangvps/best-jichang
+- GitHub: https://github.com/zuixinjichang/2026-jichang-tuijian
 - Email: contact@bestjichang.github.io
 
 ---

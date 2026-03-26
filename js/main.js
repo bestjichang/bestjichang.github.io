@@ -20,12 +20,12 @@
         return stars;
     }
     
-    // Generate airport card HTML
+    // Generate airport card HTML - Horizontal Layout
     function generateAirportCard(airport, isFeatured = false) {
         const couponHtml = airport.coupon ? 
-            `<div class="coupon">优惠码：${airport.coupon} <span class="text-xs ml-1">(${airport.couponDesc})</span></div>` : '';
+            `<div class="coupon mb-2">优惠码：${airport.coupon} <span class="text-xs ml-1">(${airport.couponDesc})</span></div>` : '';
         
-        const featuresHtml = airport.features.map(feature => 
+        const featuresHtml = airport.features.slice(0, 4).map(feature => 
             `<li class="flex items-start">
                 <svg class="w-4 h-4 mr-2 mt-0.5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
@@ -34,7 +34,7 @@
             </li>`
         ).join('');
         
-        const plansHtml = airport.plans.map(plan => 
+        const plansHtml = airport.plans.slice(0, 3).map(plan => 
             `<div class="plan">
                 <div>
                     <span class="price">${plan.price}</span>
@@ -45,25 +45,35 @@
         ).join('');
         
         const featuredClass = isFeatured ? 'ring-2 ring-primary-light dark:ring-primary-dark' : '';
+        const featuredBadge = isFeatured ? '<span class="inline-block px-2 py-1 text-xs font-semibold bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200 rounded mb-2">主力推荐</span>' : '';
         
         return `
             <div class="card ${featuredClass}" data-category="${airport.category}">
-                <div class="card-header flex justify-between items-start mb-4">
-                    <h3 class="text-lg font-semibold">${airport.name}</h3>
+                <div class="card-header">
+                    ${featuredBadge}
+                    <h3 class="text-xl font-bold mb-2">${airport.name}</h3>
                     <div class="rating">${generateStars(airport.rating)}</div>
+                    <a href="${airport.url}" target="_blank" rel="noopener noreferrer" class="btn-primary w-full mt-4">
+                        官网入口
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                        </svg>
+                    </a>
+                    ${couponHtml}
                 </div>
-                <a href="${airport.url}" target="_blank" rel="noopener noreferrer" class="btn-primary w-full mb-3">
-                    官网入口
-                    <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-                    </svg>
-                </a>
-                ${couponHtml}
-                <ul class="features">
-                    ${featuresHtml}
-                </ul>
-                <div class="mt-4">
-                    ${plansHtml}
+                <div class="card-content">
+                    <div>
+                        <h4 class="font-semibold mb-2">核心优势</h4>
+                        <ul class="features">
+                            ${featuresHtml}
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold mb-2">推荐套餐</h4>
+                        <div class="space-y-2">
+                            ${plansHtml}
+                        </div>
+                    </div>
                 </div>
             </div>
         `;

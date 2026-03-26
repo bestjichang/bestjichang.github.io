@@ -16,7 +16,7 @@
 
 ## 📮 联系方式
 
-- GitHub: https://github.com/bestjichang
+- GitHub: https://github.com/jichangvps/best-jichang
 - Email: contact@bestjichang.github.io
 
 ---

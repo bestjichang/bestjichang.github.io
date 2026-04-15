@@ -16,7 +16,7 @@
 
 ## 📮 联系方式
 
-- GitHub: https://github.com/maomao533/2026-jichang-tuijian
+- GitHub: https://github.com/maomao533/jichang-tizi-tuijian
 - Email: contact@bestjichang.github.io
 
 ---

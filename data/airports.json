@@ -145,26 +145,6 @@
       "specialFeatures": "不限时流量"
     },
     {
-      "id": "budingcat",
-      "name": "布丁猫机场",
-      "rating": 5,
-      "url": "https://go.clashshome.com/budingcat",
-      "features": [
-        "8 元/月起，市场最低价之一",
-        "所有套餐不限制设备数量",
-        "30-99+ 节点，5-40+ 地区覆盖",
-        "300Mbps-1500Mbps 速度"
-      ],
-      "plans": [
-        { "name": "奶猫 - 迷你版", "price": "¥8/月", "details": "75GB · 300Mbps" },
-        { "name": "幼猫 - 轻享版", "price": "¥13/月", "details": "150GB · 500Mbps" }
-      ],
-      "category": "entry",
-      "minPrice": "¥8/月",
-      "maxSpeed": "1500Mbps",
-      "specialFeatures": "不限制设备"
-    },
-    {
       "id": "wenlianyun",
       "name": "稳连云机场",
       "rating": 5,
@@ -183,28 +163,6 @@
       "minPrice": "¥12/月",
       "maxSpeed": "IEPL 专线",
       "specialFeatures": "流媒体+GPT"
-    },
-    {
-      "id": "yunguijc",
-      "name": "云轨加速",
-      "rating": 5,
-      "url": "https://go.clashshome.com/yunguijc",
-      "features": [
-        "全 IEPL 专线节点",
-        "500Mbps 峰值速率",
-        "不限制设备数量",
-        "全球节点覆盖",
-        "智能流媒体优化"
-      ],
-      "plans": [
-        { "name": "入门版", "price": "¥15/月", "details": "300GB · 500Mbps" },
-        { "name": "标准版", "price": "¥25/月", "details": "600GB · 500Mbps" },
-        { "name": "不限时流量包", "price": "¥150", "details": "1TB 永久有效" }
-      ],
-      "category": "value",
-      "minPrice": "¥15/月",
-      "maxSpeed": "500Mbps",
-      "specialFeatures": "全 IEPL 专线"
     },
     {
       "id": "feiniaoyun",
@@ -226,49 +184,6 @@
       "minPrice": "¥1/月",
       "maxSpeed": "不限速",
       "specialFeatures": "Hysteria2 协议"
-    },
-    {
-      "id": "naiyun",
-      "name": "奈云",
-      "rating": 5,
-      "url": "https://go.clashshome.com/naiyun",
-      "coupon": "0308",
-      "features": [
-        "全球广泛节点覆盖",
-        "独特家宽 IP 地址",
-        "ChatGPT 全解锁优化",
-        "支持 Shadowsocks/Vmess/Trojan 协议"
-      ],
-      "plans": [
-        { "name": "个人日常使用", "price": "¥14.9/月起", "details": "130G-420G 套餐" },
-        { "name": "家庭共享", "price": "¥29.9/月起", "details": "1660G-3600G 套餐" }
-      ],
-      "category": "value",
-      "minPrice": "¥14.9/月",
-      "maxSpeed": "1000Mbps",
-      "specialFeatures": "家宽 IP"
-    },
-    {
-      "id": "jinglingxy",
-      "name": "精灵学院机场",
-      "rating": 5,
-      "url": "https://go.clashshome.com/jinglingxy",
-      "coupon": "New2025",
-      "couponDesc": "新用户 95 折",
-      "features": [
-        "IEPL 专线 + 中转入口",
-        "Silver 及以上套餐提供 EMBY 影音服务",
-        "支持 ChatGPT/Claude 等 AI 工具",
-        "500Mbps 峰值速率"
-      ],
-      "plans": [
-        { "name": "Silver 套餐", "price": "¥15/月", "details": "120GB · 提供 EMBY" },
-        { "name": "Iron 套餐", "price": "¥8/月", "details": "30GB · 入门体验" }
-      ],
-      "category": "value",
-      "minPrice": "¥8/月",
-      "maxSpeed": "500Mbps",
-      "specialFeatures": "EMBY 服务"
     },
     {
       "id": "yuyunjc",
@@ -309,51 +224,6 @@
       "minPrice": "¥24/月",
       "maxSpeed": "2000Mbps",
       "specialFeatures": "新疆+Emby"
-    },
-    {
-      "id": "xsus",
-      "name": "XSUS 网络服务",
-      "rating": 4,
-      "url": "https://go.clashshome.com/xsusgw",
-      "coupon": "OFF80",
-      "couponDesc": "年付 8 折",
-      "features": [
-        "自有机房专柜",
-        "P-Ultra 套餐 5Gbps 突发带宽",
-        "不限制设备数量",
-        "解锁 Netflix/Disney+ 等流媒体"
-      ],
-      "plans": [
-        { "name": "P-Plus 套餐", "price": "¥16/月", "details": "336GB · 1Gbps" },
-        { "name": "P-Small 套餐", "price": "¥8/月", "details": "168GB · 500Mbps" }
-      ],
-      "category": "premium",
-      "minPrice": "¥8/月",
-      "maxSpeed": "5Gbps 突发",
-      "specialFeatures": "自有机房"
-    },
-    {
-      "id": "overwall",
-      "name": "overwall",
-      "rating": 5,
-      "url": "https://go.clashshome.com/overwall",
-      "backupUrl": "https://go.clashshome.com/overwall1",
-      "features": [
-        "游戏专线",
-        "技术架构合理",
-        "连接稳定性突出",
-        "使用门槛低",
-        "支持 Windows/macOS/Android"
-      ],
-      "plans": [
-        { "name": "入门套餐", "price": "¥18/月", "details": "100GB · IEPL 专线" },
-        { "name": "主流套餐", "price": "¥36/月", "details": "300GB · IEPL 专线+游戏专线" },
-        { "name": "不限时套餐", "price": "¥38 起", "details": "100GB 永久有效" }
-      ],
-      "category": "special",
-      "minPrice": "¥18/月",
-      "maxSpeed": "高速",
-      "specialFeatures": "游戏专线"
     }
   ]
 }

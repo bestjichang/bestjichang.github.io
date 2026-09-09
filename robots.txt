@@ -1,14 +1,4 @@
 User-agent: *
 Allow: /
 
-# Sitemap
-Sitemap: https://jichangtuijian.github.io/sitemap.xml
-
-# Disallow common paths
-Disallow: /assets/
-Disallow: /js/
-Disallow: /css/
-Disallow: /data/
-
-# Crawl-delay
-Crawl-delay: 1
+Sitemap: https://bestjichang.github.io/sitemap.xml
